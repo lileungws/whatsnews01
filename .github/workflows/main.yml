@@ -84,20 +84,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Push changes
-        run: |
-          git config --global user.email "leungw3@cardiff.ac.uk"
-          git config --global user.name "LLeung"
-          git add .
-          git commit -m "Update news and keywords"
-          git push
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './web'
+          path: '/web/data'
           
       - name: Deploy to GitHub Pages
         id: deployment
