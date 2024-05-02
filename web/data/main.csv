@@ -1,5 +1,9 @@
 group_id,title,published_at,url,keywords
-1,Bots and misleading URLS create voter confusion,2024-05-01T05:04:56Z,https://www.bbc.co.uk/news/uk-england-london-68923015,
-2,Wales wing Lane to leave Cardiff for France,2024-05-01T09:16:09Z,https://www.bbc.com/sport/rugby-union/articles/cqln42yw03jo,
-3,Tesla staff say entire Supercharger team fired,2024-05-01T11:10:59Z,https://www.bbc.co.uk/news/technology-68935522,
-4,Weinstein to appear in court after conviction quashed,2024-05-01T10:33:55Z,https://www.bbc.co.uk/news/world-us-canada-68932613,
+1,Bots and misleading URLS create voter confusion,2024-05-01T05:04:56Z,https://www.bbc.co.uk/news/uk-england-london-68923015,"BOTS, MISLEADING, VOTER, CONFUSION."
+2,Wales wing Lane to leave Cardiff for France,2024-05-01T09:16:09Z,https://www.bbc.com/sport/rugby-union/articles/cqln42yw03jo,"TITLE: WALES WING LANE TO LEAVE CARDIFF FOR FRANCE
+KEYWORDS: WALES, LEAVE, CARD"
+3,Tesla staff say entire Supercharger team fired,2024-05-01T11:10:59Z,https://www.bbc.co.uk/news/technology-68935522,"1. STAFF
+2. ENTIRE
+3. TEAM
+4. FIRED"
+4,Weinstein to appear in court after conviction quashed,2024-05-01T10:33:55Z,https://www.bbc.co.uk/news/world-us-canada-68932613,"WEINSTEIN, COURT, CONVICTION, QUASHED"
