@@ -16,7 +16,8 @@ for index, row in df.iterrows():
     # prompt = f"From each \"{title}\", extract only 4 separate single word which are most important to the content and not duplicate with keywords extracted from other title, then output the keyword with this format: without punctuation, separate  by comma."
     # prompt = f"From each \"{title}\", extract only 4 separate keywords and not duplicate with keywords extracted from other title. Output format: without punctuation, separate by comma."
     # prompt = f"Select four single words from each \"{title}\" that are most relevant to the content and do not overlap with keywords extracted from other titles. Example: if the title is \"Tornado strikes Missouri event venue during wedding rehearsal\", the expected keywords output would be: TORNADO, MISSOURI, VENUE, REHEARSAL"
-    prompt = f"Select only 4 separate single keywords from each \"{title}\" that are most relevant to the content and not overlap with keywords extracted from other titles. Output format: without punctuation, separate by comma. For example, if the title is \"Tornado strikes Missouri event venue during wedding rehearsal\", the keywords output should be: TORNADO, MISSOURI, VENUE, REHEARSAL"
+    # prompt = f"Select only 4 separate single keywords from each \"{title}\" that are most relevant to the content and not overlap with keywords extracted from other titles. Output format: without punctuation, separate by comma. For example, if the title is \"Tornado strikes Missouri event venue during wedding rehearsal\", the keywords output should be: TORNADO, MISSOURI, VENUE, REHEARSAL"
+    prompt = f"From each \"{title}\", select only 4 separate single word which are most important to the content and not duplicate with keywords extracted from other title, then output the keyword with this format: without punctuation, separate  by comma."
     
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
